@@ -1,1 +1,49 @@
 // Navigation code here
+nav {
+    font-style: @river-bend;
+    background:@wild-sand;
+    border: @sea-shell;
+    display:flex;
+    width:100%;
+    padding-top:20px;
+    padding-bottom:20px;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    justify-content: center;
+    text-align: center;
+    
+    h1{
+      width:100%;
+      text-align: center;
+      font-size:40px;
+        
+    }
+    a{
+      text-decoration: none;
+      color:#23293B;   
+      vertical-align:top;	
+      font-size:2rem;
+      width:12%;    
+      margin-top:15px;
+    }
+}
+@media @phone{
+  nav{
+    font-style: @river-bend;
+    background:@wild-sand;
+    border:1px solid @sea-shell;
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    a{
+     width:20%;
+     flex-wrap:none;
+     justify-content: space-evenly;
+     font-size: 18px;
+      
+    }
+    }
+  
+ 
+
+  }
