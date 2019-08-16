@@ -1,1 +1,25 @@
 // Mixins Here
+.custombtn(@width, @background, @background-hover){
+    font-size:20px;
+    color: @sea-shell;
+    background: @background;
+    width: @width;
+    border-radius: 15px;
+    text-align: center;
+    padding:10px;
+    &:hover{
+        background-color:@background-hover;
+        color:#17A2B8;
+      }
+
+}
+.hidden(){
+    display:none;
+}
+
+.img-radius(){
+    border-radius: 15px;
+}
+
+
+
